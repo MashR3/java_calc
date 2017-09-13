@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function (event) {
 	
 	var operand = 0;
+	var operation = 0;
 	var display = document.getElementsByClassName('display');
 	
 	var oneButton = document.getElementsByName('one')[0];
@@ -57,31 +58,51 @@ document.addEventListener('DOMContentLoaded', function (event) {
 		document.getElementsByClassName('display')[0].value = operand;
 	}
 
-	var operation = document.getElementsByName('plus')[0];
-	operation.onclick = function () {
-		console.log('Clicked plus!');
-		document.getElementsByClassName('display')[0].value = '+';
-	}
 
-
-	var operation = document.getElementsByName('minus')[0];
+if  (var operation = document.getElementsByName('plus')[0];
 	operation.onclick = function () {
-		console.log('Clicked minus!');
-		document.getElementsByClassName('display')[0].value = '-';
-	}
+	console.log('Clicked plus!');
+	document.getElementsByClassName('display')[0].value = '+' })	
 
-	var operation = document.getElementsByName('div')[0];
+		function addNumbers () {
+
+		}
+}
+
+if 	(var operation = document.getElementsByName('minus')[0];
 	operation.onclick = function () {
-		console.log('Clicked divide!');
-		document.getElementsByClassName('display')[0].value = '/';
-	}
+	console.log('Clicked minus!');
+	document.getElementsByClassName('display')[0].value = '-'})
+
+		function minusNumbers () {
+
+		}
+
+}
+
+ if (var operation = document.getElementsByName('div')[0];
+	operation.onclick = function () {
+	console.log('Clicked divide!');
+	document.getElementsByClassName('display')[0].value = '/'})
+
+ 		function divNumbers () {
+
+ 		}
+	
+	
+else 	
 
 	var operation = document.getElementsByName('times')[0];
 	operation.onclick = function () {
-		console.log('Clicked times!');
-		document.getElementsByClassName('display')[0].value = 'x';
-	}
+	console.log('Clicked times!');
+	document.getElementsByClassName('display')[0].value = 'x';
 
+		function timesNumbers () {
+			
+		}
+	
+	
+}
 
 
 
